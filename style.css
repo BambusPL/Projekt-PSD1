@@ -12,6 +12,10 @@ body {
     transform: translateY(-50%)/*trick do srodkowania, klase dodajemy*/
 }
 
+
+
+
+
 #header {
     background-image: url(img/Layer%2014.png);
     background-size: cover;
@@ -389,4 +393,108 @@ body {
     background-size: cover;
 }
 
+#zaw6 h2 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #0f5f5c;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    
+}
+#zaw6 p {
+    margin-bottom: 75px;
+    color: #acc4c3;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.zaw6-przycisk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.zaw6-btn{
+    height: 45px;
+    width: 280px;
+    border-radius: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;  
+}
+
+/************Foooooter************/
+footer{
+    height: 400px;
+}
+
+footer ul a:hover
+{
+    text-decoration: none;
+}
+
+footer ul a,
+footer ul a:focus
+{
+    color: #83a7a5;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li{
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .naglowek{
+    color: #0f5f5c;
+}
+
+footer h3{
+    color: #0f5f5c;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+footer p{
+    color: #83a7a5;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+footer i{
+    margin-right: 20px;
+    font-size: 25px;
+    
+}
+
+
+footer .kontakt:focus{
+    border-color: black;
+    background-color: #d2d8ce;
+}
+footer .kontakt{
+  background-color: #eef1ec;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;  
+    height: 32px;
+}
+
+
+footer .enter{
+    font-family: "fontawesome";
+    color: #6fb048;
+    background: none;
+    position: absolute;
+    left: 80%;
+    bottom: 46%;
+    
+}
 
