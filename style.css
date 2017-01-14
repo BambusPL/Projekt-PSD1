@@ -1,0 +1,392 @@
+body {
+    font-size: 20px;
+    margin: 0 auto;
+    position: relative;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)/*trick do srodkowania, klase dodajemy*/
+}
+
+#header {
+    background-image: url(img/Layer%2014.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+#header i {
+    margin-right: 20px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.menu {
+    margin-left: 50%;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0);
+    font-size: 16px;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+#tekst:hover {
+    background-color: rgba(107, 127, 127, 0.59);
+    border-radius: 5px;
+}
+
+#tekst1:hover {
+    background-color: rgba(107, 127, 127, 0.59);
+    border-radius: 5px;
+}
+
+#tekst {
+    color: #fff;
+}
+
+#tekst-logo {
+    color: #fff;
+}
+
+#tekst1 {
+    color: #b3bfbf;
+}
+
+.logo-tekst {
+    border-right: 1px solid #6b7f7f;
+    padding-right: 15px;
+    line-height: 10px;
+    margin-left: -14px;
+}
+
+.header-tekst button:hover {
+    cursor: pointer;
+}
+
+.header-tekst button {
+    border-radius: 0;
+    height: 50px;
+    width: 180px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.header-tekst h1 {
+    margin-bottom: 25px;
+}
+
+.header-tekst p {
+    margin-bottom: 25px;
+}
+
+.header-tekst {
+    margin-bottom: 200px;
+    margin-top: 180px;
+    color: #fff;
+}
+
+
+/************* PIERWSZA SEKCJA **************/
+
+#zaw1 {
+    height: 100%;
+    background-color: #fff;
+}
+
+#zaw1 h2 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #0f5f5c;
+    margin-top: 90px;
+    margin-bottom: 25px;
+}
+
+#zaw1 hr {
+    width: 62px;
+    border-color: #6fb048;
+    margin-bottom: 20px;
+}
+
+#zaw1 h3 {
+    color: #1f6a67;
+}
+
+#zaw1 p {
+    color: #acc4c3;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.pe {
+    margin: 0 20%;
+    margin-bottom: 70px;
+}
+
+#zaw1 img {
+    margin-bottom: 25px;
+}
+
+#zaw1 h3 {
+    margin-bottom: 25px;
+}
+
+#zaw1 .linia-pozioma {
+    width: 90px;
+    border-color: #f2f2f2;
+    margin-top: 100px;
+}
+
+#zaw1 .linia-pozioma1 {
+    width: 90px;
+    border-color: #f2f2f2;
+    transform: rotate(90deg);
+    position: relative;
+    top: -65px;
+}
+
+.zaw1zdj {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+
+#zaw1 .linia {
+    margin-bottom: 90px;
+}
+
+
+/************* DRUGA SEKCJA **************/
+
+#zaw2 {
+    height: 100%;
+    background-color: #eef1ec;
+}
+
+#zaw2 h2 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #0f5f5c;
+    margin-bottom: 25px;
+    padding-top: 90px;
+}
+
+#zaw2 hr {
+    width: 62px;
+    border-color: #6fb048;
+    margin-bottom: 20px;
+}
+
+#zaw2 p {
+    color: #acc4c3;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.zaw2tekst {
+    padding-right: 20%;
+}
+
+.zaw2tekst img {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+
+/************* TRZECIA SEKCJA **************/
+
+#zaw3 {
+    height: 100%;
+    font-family: 'Merriweather', serif;
+}
+
+#zaw3 h4 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #83a7a5;
+    margin-top: 240px;
+    line-height: 30px;
+}
+
+#zaw3 p {
+    font-size: 14px;
+    color: #acc4c3;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 240px;
+}
+
+#zaw3 img {
+    margin-left: 40px;
+}
+
+
+/************* CZWARTA SEKCJA **************/
+
+#zaw4 {
+    height: 100%;
+    background-color: #eef1ec;
+}
+
+#zaw4 h2 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #0f5f5c;
+    margin-bottom: 20px;
+    padding-top: 140px;
+}
+
+#zaw4 p {
+    color: #acc4c3;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 170px;
+}
+
+
+/************* PIĄTA SEKCJA **************/
+
+#zaw5 {
+    height: 100%;
+}
+
+#zaw5 h2 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #0f5f5c;
+    margin-top: 90px;
+    margin-bottom: 25px;
+}
+
+#zaw5 hr {
+    width: 62px;
+    border-color: #6fb048;
+    margin-bottom: 20px;
+}
+
+#zaw5 .pe {
+    color: #acc4c3;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#zaw5 .kolumna {
+    border: 1px solid #c1d3d2;
+    width: 25%;
+}
+
+#zaw5 .kol {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#zaw5 h5 {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: #9fca85;
+    font-size: 15px;
+}
+
+#zaw5 h4 {
+    color: #0f5f5c;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#zaw5 p {
+    margin: 0 50px;
+    margin-bottom: 25px;
+    color: #acc4c3;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.zaw5-przycisk:hover {
+    background-color: #6fb048;
+    cursor: pointer;
+}
+
+.zaw5-przycisk {
+    width: 140px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: #83a7a5;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+#zaw5 h3 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #0f5f5c;
+    margin-top: 90px;
+    margin-bottom: 25px;
+}
+
+#zaw5 ul {
+    list-style-type: none;
+}
+
+#zaw5 ul li {
+    font-size: 15px;
+    color: #acc4c3;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#zaw5 .zaw5-accept {
+    margin-right: 20px;
+}
+
+#zaw5 .zaw5-h2 {
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#zaw5 .kolo-ratunkowe
+/*zdjecie kola ratunkowego*/
+
+{
+    margin-top: 90px;
+}
+#zaw5 .zaw5-email {
+    color: #0f5f5c;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+
+/************* SZÓSTA SEKCJA **************/
+
+#zaw6
+{
+    height: 300px;
+    background-image: url(img/Rectangle%204.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
