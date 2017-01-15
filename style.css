@@ -12,10 +12,6 @@ body {
     transform: translateY(-50%)/*trick do srodkowania, klase dodajemy*/
 }
 
-
-
-
-
 #header {
     background-image: url(img/Layer%2014.png);
     background-size: cover;
@@ -202,7 +198,6 @@ body {
 
 .zaw2tekst {
     padding-right: 20%;
-    
 }
 
 .zaw2tekst img {
@@ -376,6 +371,7 @@ body {
 {
     margin-top: 90px;
 }
+
 #zaw5 .zaw5-email {
     color: #0f5f5c;
     margin-top: 40px;
@@ -385,8 +381,7 @@ body {
 
 /************* SZÓSTA SEKCJA **************/
 
-#zaw6
-{
+#zaw6 {
     height: 300px;
     background-image: url(img/Rectangle%204.png);
     background-position: center;
@@ -400,8 +395,8 @@ body {
     color: #0f5f5c;
     margin-top: 70px;
     margin-bottom: 15px;
-    
 }
+
 #zaw6 p {
     margin-bottom: 75px;
     color: #acc4c3;
@@ -409,148 +404,181 @@ body {
     font-size: 16px;
 }
 
-.zaw6-przycisk{
+.zaw6-przycisk {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
-.zaw6-btn{
+.zaw6-btn {
     height: 45px;
     width: 280px;
     border-radius: 0;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 13px;  
+    font-size: 13px;
 }
 
+
 /************Foooooter************/
-footer{
+
+footer {
     height: 400px;
 }
 
-#stopka .row
-{
+#stopka .row {
     margin-top: 100px;
 }
 
-footer ul a:hover
-{
+footer ul a:hover {
     text-decoration: none;
 }
 
 footer ul a,
-footer ul a:focus
-{
+footer ul a:focus {
     color: #83a7a5;
 }
 
-footer ul{
+footer ul {
     list-style-type: none;
 }
 
-footer ul li{
+footer ul li {
     line-height: 35px;
     font-size: 14px;
     font-weight: 400;
 }
 
-footer .naglowek{
+footer .naglowek {
     color: #0f5f5c;
 }
 
-footer h3{
+footer h3 {
     color: #0f5f5c;
     font-weight: 700;
     font-size: 22px;
     text-transform: uppercase;
 }
-footer p{
+
+footer p {
     color: #83a7a5;
     text-align: left;
     font-size: 13px;
     font-weight: 400;
 }
 
-footer i{
+footer i {
     margin-right: 20px;
     font-size: 25px;
-    
 }
 
-
-footer .kontakt:focus{
+footer .kontakt:focus {
     border-color: black;
     background-color: #d2d8ce;
 }
-footer .kontakt{
-  background-color: #eef1ec;
+
+footer .kontakt {
+    background-color: #eef1ec;
     font-size: 13px;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif;
     height: 32px;
 }
 
-
-footer .enter{
+footer .enter {
     font-family: "fontawesome";
     color: #6fb048;
     background: none;
     position: absolute;
     left: 80%;
     bottom: 46%;
-    
 }
-
-
 
 
 /*******MEDIA QUERIES***************/
 
 @media (max-width: 991px) {
-    .logo-tekst{border-right: none;}
-    .zaw2tekst{margin: 0 auto; align-content: center;}
-    #zaw3 h4 {margin-top: 100px;}
-    #zaw3 p{margin-bottom: 100px;}
-    #zaw4 p{margin-bottom: 100px;}
-    #zaw5 .kolumna{width: 30%;}
-    footer .enter{left: 70%; bottom: 36%;}
-    #zaw2 .margines{
+    .logo-tekst {
+        border-right: none;
+    }
+    .zaw2tekst {
+        margin: 0 auto;
+        align-content: center;
+    }
+    #zaw3 h4 {
+        margin-top: 100px;
+    }
+    #zaw3 p {
+        margin-bottom: 100px;
+    }
+    #zaw4 p {
+        margin-bottom: 100px;
+    }
+    #zaw5 .kolumna {
+        width: 30%;
+    }
+    footer .enter {
+        left: 40%;
+        bottom: 13%;
+    }
+    #zaw2 .margines {
         margin-bottom: 10%;
     }
-     #zaw4 img{
-     margin-bottom: 20%;
+    #zaw4 img {
+        margin-bottom: 20%;
     }
-    #zaw4 h2{
-       padding-top: 10%;
+    #zaw4 h2 {
+        padding-top: 10%;
     }
-    #zaw6 .btn{
+    #zaw6 .btn {
         margin-bottom: 10%;
+    }
+    
+    footer .kontakt
+    {
+        width: 50%;
     }
 }
 
 @media (max-width: 767px) {
-#zaw5 .kol{display: flex; flex-direction: column; justify-content: center; margin-left: 90px;}
-    #zaw5 .kolumna{width: 80%; }
-    #stopka .stopka1nag{
+    #zaw5 .kol {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 90px;
+    }
+    #zaw5 .kolumna {
+        width: 80%;
+    }
+    #stopka .stopka1nag {
         margin-left: 32%;
     }
-    #zaw3 img{
+    #zaw3 img {
         display: none;
     }
-    #zaw2 .margines{
+    #zaw2 .margines {
         margin-bottom: 10%;
     }
-     #zaw4 img{
-     margin-bottom: 20%;
+    #zaw4 img {
+        margin-bottom: 20%;
     }
-    #zaw4 h2{
-       padding-top: 10%;
+    #zaw4 h2 {
+        padding-top: 10%;
     }
-    #zaw6 .btn{
+    #zaw6 .btn {
         margin-bottom: 10%;
+    }
+    
+    .stopka1,.stopka2{
+        display: none;
+    }
+    .stopka1nag{
+        margin-bottom: 15%;
+    }
+    
+    footer .kontakt
+    {
+        width: 50%;
     }
 }
-
