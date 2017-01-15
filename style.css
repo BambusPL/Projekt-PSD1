@@ -202,6 +202,7 @@ body {
 
 .zaw2tekst {
     padding-right: 20%;
+    
 }
 
 .zaw2tekst img {
@@ -430,6 +431,11 @@ footer{
     height: 400px;
 }
 
+#stopka .row
+{
+    margin-top: 100px;
+}
+
 footer ul a:hover
 {
     text-decoration: none;
@@ -496,5 +502,55 @@ footer .enter{
     left: 80%;
     bottom: 46%;
     
+}
+
+
+
+
+/*******MEDIA QUERIES***************/
+
+@media (max-width: 991px) {
+    .logo-tekst{border-right: none;}
+    .zaw2tekst{margin: 0 auto; align-content: center;}
+    #zaw3 h4 {margin-top: 100px;}
+    #zaw3 p{margin-bottom: 100px;}
+    #zaw4 p{margin-bottom: 100px;}
+    #zaw5 .kolumna{width: 30%;}
+    footer .enter{left: 70%; bottom: 36%;}
+    #zaw2 .margines{
+        margin-bottom: 10%;
+    }
+     #zaw4 img{
+     margin-bottom: 20%;
+    }
+    #zaw4 h2{
+       padding-top: 10%;
+    }
+    #zaw6 .btn{
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 767px) {
+#zaw5 .kol{display: flex; flex-direction: column; justify-content: center; margin-left: 90px;}
+    #zaw5 .kolumna{width: 80%; }
+    #stopka .stopka1nag{
+        margin-left: 32%;
+    }
+    #zaw3 img{
+        display: none;
+    }
+    #zaw2 .margines{
+        margin-bottom: 10%;
+    }
+     #zaw4 img{
+     margin-bottom: 20%;
+    }
+    #zaw4 h2{
+       padding-top: 10%;
+    }
+    #zaw6 .btn{
+        margin-bottom: 10%;
+    }
 }
 
