@@ -424,10 +424,10 @@ body {
 /************Foooooter************/
 
 footer {
-    height: 400px;
+    height: 100%;
 }
 
-#stopka .row {
+#stopka .wor {
     margin-top: 100px;
 }
 
@@ -493,6 +493,14 @@ footer .enter {
     position: absolute;
     left: 80%;
     bottom: 46%;
+}
+
+footer .stopka-ikony{
+    margin-bottom: 50px;
+}
+
+footer hr{
+    margin-bottom: 30px;
 }
 
 
@@ -576,4 +584,18 @@ footer .enter {
     {
         width: 50%;
     }
+    
+    .stopka-ikony{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .stopka-tekst{
+        text-align: center;
+        margin-top: 0px;
+    }
+    
+    
+    
 }
