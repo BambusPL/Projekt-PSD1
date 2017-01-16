@@ -542,14 +542,9 @@ footer .enter {
 }
 
 @media (max-width: 767px) {
-    #zaw5 .kol {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 90px;
-    }
     #zaw5 .kolumna {
         width: 80%;
+        
     }
     #stopka .stopka1nag {
         margin-left: 32%;
