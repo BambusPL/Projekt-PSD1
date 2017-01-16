@@ -184,20 +184,23 @@
             <div class="row kol">
                 <div class="kolumna">
                     <h5>Plan</h5>
-                    <h4><strong style="font-size:65px">$256</strong><br>/miesiąc</h4>
+                    <h4><strong style="font-size:65px">$<span class=".integers">234</span>
+</strong><br>/miesiąc</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, totam!</p>
                     <button class="btn btn-success zaw5-przycisk">Wybierz</button>
                 </div>
                 <div class="kolumna">
                     <h5>Plan</h5>
-                    <h4><strong style="font-size:65px">$985</strong><br>/miesiąc</h4>
+                    <h4><strong style="font-size:65px">$<span class=".integers">542</span>
+</strong><br>/miesiąc</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, totam!</p>
                     <button class="btn btn-success zaw5-przycisk">Wybierz</button>
 
                 </div>
                 <div class="kolumna">
                     <h5>Plan</h5>
-                    <h4><strong style="font-size:65px">$623</strong><br>/miesiąc</h4>
+                    <h4><strong style="font-size:65px">$<span class=".integers">450</span>
+</strong><br>/miesiąc</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, totam!</p>
                     <button class="btn btn-success zaw5-przycisk">Wybierz</button>
 
@@ -353,6 +356,19 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    
+    <!-- skrypt do odliczania-->
+    <script>
+jQuery(document).ready(function( $ ) {
+$('span').counterUp({
+delay: 10, // the delay time in ms
+time: 1000 // the speed time in ms
+});
+});
+</script>
+
 </body>
 
 </html>
